@@ -1,4 +1,4 @@
 .vscode
-.cytest_cache
+.pytest_cache
 venv
 __pycache__
