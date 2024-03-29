@@ -1,6 +1,24 @@
 # Filter Generator
 
-This Python project generates U-Block Origin filters given data from a CSV input file. 
+This project generates filters compatible with UBlock Origin to block unwanted jobs in linkedin. It can create filters to block job posts by company name or by job title.
+
+## CSV Format
+
+The input CSV file should have the following columns:
+
+- `source`: The website where the filter will be applied. Currently, only "linkedin" is supported.
+- `type`: The type of element to block. This can be "company" or "title".
+- `phrase`: The phrase to match in order to block the element.
+
+Here's an example of what the CSV file might look like:
+
+| source | phrase | type |
+| -------- | -------- | -------- |
+| www.linkedin.com  | Unwanted Company | company |
+| www.linkedin.com  | Unwanted Job Title | title |
+| www.linkedin.com  | Jobot | company |
+| www.linkedin.com  | Sales | title |
+
 
 ## Getting Started
 
