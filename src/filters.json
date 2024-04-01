@@ -10,8 +10,8 @@
     {
         "source": "teamblind",
         "selectors": {
-            "company": "[data-testid=\"job-preview-title\"]",
-            "title": "[data-testid=\"company-name\"]"
+            "title": "[data-testid=\"job-preview-title\"]",
+            "company": "[data-testid=\"company-name\"]"
         },
         "filter": "a:has({element}:has-text({phrase}))"
     }
