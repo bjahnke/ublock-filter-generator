@@ -1,0 +1,18 @@
+[
+    {
+        "source": "linkedin",
+        "selectors": {
+            "company": ".job-card-container__primary-description",
+            "title": ".job-card-list__title"
+        },
+        "filter": "li:has({element}:has-text({phrase}))"
+    },
+    {
+        "source": "teamblind",
+        "selectors": {
+            "company": "[data-testid=\"job-preview-title\"]",
+            "title": "[data-testid=\"company-name\"]"
+        },
+        "filter": "a:has({element}:has-text({phrase}))"
+    }
+]

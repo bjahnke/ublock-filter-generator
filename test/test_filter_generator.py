@@ -1,6 +1,6 @@
 import pytest
 import csv
-from src.filter_generator import load_csv_file
+from src.domain.filter_generator import load_csv_file
 import csv
 import random
 from pathlib import Path
