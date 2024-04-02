@@ -1,104 +1,110 @@
 source,phrase,element_type
-linkedin,Principal,title
-linkedin,SysMind,company
-linkedin,Averity,title
-linkedin,Vice President,title
-linkedin,Virtusa,company
-linkedin,Energy Jobline,company
-linkedin,SquarePeg,company
-linkedin,TEKsystems,company
-linkedin,Platform Reliability Engineer,title
-linkedin,Platform Engineer,title
-linkedin,Recruitment,company
-linkedin,Consulting,company
-linkedin,The Job Network,company
-linkedin,Front End,title
-linkedin,Recruiting,company
-linkedin,Site Reliability Engineer,title
-linkedin,A Hiring Company,company
-linkedin,ClearanceJobs,company
-linkedin,HirexHire,company
-linkedin,Huxley,company
-linkedin,Matlen Silver,company
-linkedin,Systems Engineer,title
-linkedin,ConsultNet,company
-linkedin,"Principal, Software",title
-linkedin,Crossover,company
-linkedin,Robert Half,company
-linkedin,Offered.ai,company
-linkedin,Actalent,company
-linkedin,Salesforce Developer,title
-linkedin,Frontend,title
-linkedin,Software Architect,title
-linkedin,Solution Engineer,title
-linkedin,Principal Software Engineer,title
-linkedin,Dice,company
-linkedin,Algo Capital Group,company
-linkedin,Underdog.io,company
-linkedin,Wave Welcome,company
-linkedin,Arrow Search Partners,company
-linkedin,Jobot,company
-linkedin,Clevertech,company
-linkedin,Founding,company
-linkedin,CyberCoders,company
-linkedin,Revature,company
-linkedin,Tech Lead,title
-linkedin,Sr. Lead,title
-linkedin,Senior Staff,title
-linkedin,5D Options,company
-linkedin,TekJobs,company
-linkedin,Lead,title
-linkedin,Staff,title
-linkedin,Novusintelli Inc,company
-linkedin,Sartre Group,company
-linkedin,maven,company
-linkedin,Genesis10,company
-linkedin,PF1 Professional Services,company
-linkedin,Goliath Partners,company
-linkedin,DevOps,title
-linkedin,Diaspark Inc,company
-linkedin,Agile Tech Labs,company
-linkedin,Apex Systems,company
-linkedin,Themesoft Inc.,company
-linkedin,Solutions Engineer,company
-linkedin,Devops,title
-linkedin,Front-End,title
-linkedin,ConglomerateIT LLC,company
-linkedin,DataBank,company
-linkedin,Excelon Solutions,company
-linkedin,TEKJOBS,company
-linkedin,Benchmark IT - Technology Talent,company
-linkedin,Orbis,company
-linkedin,Solutions,company
-linkedin,Intern,title
-linkedin,Security Engineer,title
-linkedin,Easy Apply,company
-linkedin,WayUp,company
-linkedin,Careers,company
-linkedin,SRE,title
-linkedin,Site Reliability,title
-linkedin,FinTech LLC,company
-linkedin,Diverse Lynx,company
-linkedin,Cynet Systems,company
-linkedin,W3Global,company
-linkedin,Wise Skulls,company
-linkedin,Intellectt Inc,company
-linkedin,DataAnnotation,company
-linkedin,Shulman Fleming & Partners,company
-linkedin,Firmware,title
-linkedin,Cloud Engineer,title
-linkedin,SimplyApply,company
-linkedin,Job Juncture,company
-linkedin,Talentify.io,company
-linkedin,hackajob,company
-linkedin,ClickJobs.io,company
-linkedin,Horizontal Talent,company
-linkedin,Tata Consultancy Services,company
-linkedin,Braintrust,company
-google,Jobot,company
-google,Robert Half,company
-google,Recruiting from Scratch,company
-google,Fidelity TalentSource LLC,company
-google,Cognizant Technology Solutions,company
-teamblind,Principal,title
-teamblind,Staff,title
+all,Principal,title
+all,SysMind,company
+all,Averity,title
+all,Vice President,title
+all,Virtusa,company
+all,Energy Jobline,company
+all,SquarePeg,company
+all,TEKsystems,company
+all,Platform Reliability Engineer,title
+all,Platform Engineer,title
+all,Recruitment,company
+all,Consulting,company
+all,The Job Network,company
+all,Front End,title
+all,Recruiting,company
+all,Site Reliability Engineer,title
+all,A Hiring Company,company
+all,ClearanceJobs,company
+all,HirexHire,company
+all,Huxley,company
+all,Matlen Silver,company
+all,Systems Engineer,title
+all,ConsultNet,company
+all,"Principal, Software",title
+all,Crossover,company
+all,Robert Half,company
+all,Offered.ai,company
+all,Actalent,company
+all,Salesforce Developer,title
+all,Frontend,title
+all,Software Architect,title
+all,Solution Engineer,title
+all,Principal Software Engineer,title
+all,Dice,company
+all,Algo Capital Group,company
+all,Underdog.io,company
+all,Wave Welcome,company
+all,Arrow Search Partners,company
+all,Jobot,company
+all,Clevertech,company
+all,Founding,company
+all,CyberCoders,company
+all,Revature,company
+all,Tech Lead,title
+all,Sr. Lead,title
+all,Senior Staff,title
+all,5D Options,company
+all,TekJobs,company
+all,Lead,title
+all,Staff,title
+all,Novusintelli Inc,company
+all,Sartre Group,company
+all,maven,company
+all,Genesis10,company
+all,PF1 Professional Services,company
+all,Goliath Partners,company
+all,DevOps,title
+all,Diaspark Inc,company
+all,Agile Tech Labs,company
+all,Apex Systems,company
+all,Themesoft Inc.,company
+all,Solutions Engineer,company
+all,Devops,title
+all,Front-End,title
+all,ConglomerateIT LLC,company
+all,DataBank,company
+all,Excelon Solutions,company
+all,TEKJOBS,company
+all,Benchmark IT - Technology Talent,company
+all,Orbis,company
+all,Solutions,company
+all,Intern,title
+all,Security Engineer,title
+all,Easy Apply,company
+all,WayUp,company
+all,Careers,company
+all,SRE,title
+all,Site Reliability,title
+all,FinTech LLC,company
+all,Diverse Lynx,company
+all,Cynet Systems,company
+all,W3Global,company
+all,Wise Skulls,company
+all,Intellectt Inc,company
+all,DataAnnotation,company
+all,Shulman Fleming & Partners,company
+all,Firmware,title
+all,Cloud Engineer,title
+all,SimplyApply,company
+all,Job Juncture,company
+all,Talentify.io,company
+all,hackajob,company
+all,ClickJobs.io,company
+all,Horizontal Talent,company
+all,Tata Consultancy Services,company
+all,Braintrust,company
+all,Principal,title
+all,Staff,title
+all,Reliability,title
+all,Windows Engineer,title
+all,Tata Consultancy Services,company
+all,Vice President,title
+all,Director,title
+all,DIRECTOR,title
+all,Manager,title
+all,Interactive Brokers,company
+all,Capital One,company
+all,Applied Intuition,company
+all,Frontend,title

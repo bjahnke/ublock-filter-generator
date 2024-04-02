@@ -27,18 +27,17 @@ def main():
     - init filter manager
     - create filters and ouput filters to txt file
     """
+    in_default = './sample-io/block-elements.csv'
+    out_default = './sample-io/filters.txt'
+    filters_gen_config = './src/filters.json'
+
     parser = argparse.ArgumentParser(description='Filter Generator')
-    parser.add_argument('input_csv', type=str, help='input CSV file')
-    parser.add_argument('output_txt', type=str, nargs='?', default='filters.txt', help='output TXT file')
+    parser.add_argument('-i', '--input', type=str, default=in_default, help='input CSV file')
+    parser.add_argument('-o', '--output', type=str, default=out_default, help='output TXT file')
     
-    try:
-        args = parser.parse_args()
-    except:
-        input_csv = './sample-io/block-elements.csv'
-        output_txt = './sample-io/filters.txt'
-    else:
-        input_csv = args.input_csv
-        output_txt = args.output_txt
+    args = parser.parse_args()
+    input_csv = args.input
+    output_txt = args.output
 
     # Load CSV file
     data = load_csv_file(input_csv)
@@ -46,7 +45,7 @@ def main():
     filter_manager = FilterManager()
 
     # Add filter generators to filter manager
-    with open('./src/filters.json', 'r') as file:
+    with open(filters_gen_config, 'r') as file:
         filter_generators_raw = json.load(file)
     
     for filter_generator in filter_generators_raw:
@@ -60,6 +59,8 @@ def main():
     # Write filters to output file
     with open(output_txt, 'w') as file:
         file.write(str(filter_manager))
+
+    print(f"Filters generated and saved to {output_txt}")
 
 
 if __name__ == "__main__":

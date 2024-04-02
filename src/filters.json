@@ -10,9 +10,9 @@
     {
         "source": "teamblind",
         "selectors": {
-            "title": "[data-testid=\"job-preview-title\"]",
-            "company": "[data-testid=\"company-name\"]"
+            "title": ".job_title",
+            "company": ".poster_details"
         },
-        "filter": "a:has({element}:has-text({phrase}))"
+        "filter": ".job_wrapper:has({element}:has-text({phrase}))"
     }
 ]
