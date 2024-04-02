@@ -30,10 +30,11 @@ class FilterManager:
         self._filters = {}
         self._params_log = set()
 
-    def add_filter_generator(self, data: List[Dict[str, str]]):
+    def add_filter_generator(self, *data: Dict[str, object]):
         """add new filter object to the collection"""
-        self._filter_generators.update({data["source"]: fg.FilterGenerator(data["source"], data["filter"], data["selectors"])})
-        self._filters.update({data["source"]: set()})
+        for d in data:
+            self._filter_generators.update({d["source"]: fg.FilterGenerator(d["source"], d["filter"], d["selectors"])})
+            self._filters.update({d["source"]: set()})
 
     def add_filter(self, source: str, element: str, phrase: str):
         """

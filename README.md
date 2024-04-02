@@ -14,10 +14,10 @@ Here's an example of what the CSV file might look like:
 
 | source | phrase | type |
 | -------- | -------- | -------- |
-| www.linkedin.com  | Unwanted Company | company |
-| www.linkedin.com  | Unwanted Job Title | title |
-| www.linkedin.com  | Jobot | company |
-| www.linkedin.com  | Sales | title |
+| linkedin  | Unwanted Company | company |
+| linkedin  | Unwanted Job Title | title |
+| teamblind  | Jobot | company |
+| all  | Sales | title |
 
 
 ## Getting Started
@@ -38,12 +38,7 @@ git clone https://github.com/bjahnke/filter-generator.git
 
 2. Navigate to the project directory:
 ```sh
-cd filter-generator
-```
-
-3. Install the required packages:
-```sh
-pip install -r requirements.txt
+cd path/to/filter-generator
 ```
 
 ## Usage
@@ -51,13 +46,13 @@ pip install -r requirements.txt
 Run the script with the input CSV file as an argument:
 
 ```sh
-python src/filter_generator.py sample-io/block-elements.csv
+python main.py sample-io/block-elements.csv
 ```
 
 By default, the filters will be written to `filters.txt`. You can specify a different output file as a second argument:
 
 ```sh
-python src/filter_generator.py sample-io/block-elements.csv output.txt
+python main.py sample-io/block-elements.csv output.txt
 ```
 
 ## Running the Tests
